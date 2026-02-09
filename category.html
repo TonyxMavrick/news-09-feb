@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Category - CapitolScope</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <a href="index.html" class="logo">CapitolScope</a>
+        
+        <nav class="nav-desktop">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="categories-nav">
+        <ul>
+          <li><a href="category.html?id=politics">US Politics</a></li>
+          <li><a href="category.html?id=economy">Economy & Business</a></li>
+          <li><a href="category.html?id=world">World News</a></li>
+          <li><a href="category.html?id=technology">Technology</a></li>
+          <li><a href="category.html?id=health">Health</a></li>
+          <li><a href="category.html?id=sports">Sports</a></li>
+          <li><a href="category.html?id=entertainment">Entertainment</a></li>
+          <li><a href="category.html?id=opinion">Opinion & Analysis</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container" style="padding: 3rem 1rem;">
+      <div style="margin-bottom: 2rem;">
+        <h1 class="section-title" id="categoryTitle">Category</h1>
+        <p style="color: #6b7280;">Latest news and updates from this category</p>
+      </div>
+
+      <div class="news-grid" id="newsGrid">
+        <!-- Articles will be loaded by JavaScript -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div>
+            <h3>CapitolScope</h3>
+            <p style="font-size: 0.875rem;">Delivering fast, reliable, and well-structured USA news with integrity and transparency.</p>
+          </div>
+          <div>
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="category.html?id=politics">US Politics</a></li>
+              <li><a href="category.html?id=economy">Economy & Business</a></li>
+              <li><a href="category.html?id=world">World News</a></li>
+              <li><a href="category.html?id=technology">Technology</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>More News</h4>
+            <ul>
+              <li><a href="category.html?id=health">Health</a></li>
+              <li><a href="category.html?id=sports">Sports</a></li>
+              <li><a href="category.html?id=entertainment">Entertainment</a></li>
+              <li><a href="category.html?id=opinion">Opinion & Analysis</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Information</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CapitolScope. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
